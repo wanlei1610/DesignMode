@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>video</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+
+        .homeBox {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .video {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .headBox {
+            position: relative;
+            z-index: 2;
+        }
+
+        ul {
+            display: flex;
+
+        }
+
+        li {
+            font-size: 28px;
+            color: #000;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="homeBox">
+    <video id="video" class="video" loop="" muted="" autoplay=""><source src="//static.yximgs.com/udata/pkg/fe/kwai_video.a7616d99.mp4" type="video/mp4">抱歉，您的浏览器不支持内嵌视频</video>
+<!--    <video class="video" src="https://static.yximgs.com/udata/pkg/fe/kwai_video.a7616d99.mp4"></video>-->
+    <div class="headBox">
+        <ul>
+            <li>计划学</li>
+            <li>智课堂</li>
+            <li>简单督学服务</li>
+            <li>简单学习网</li>
+            <li>错题本</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
